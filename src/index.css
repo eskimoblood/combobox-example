@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque:800&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Darker Grotesque', sans-serif;
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+input {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+html,
+body > div {
+    height: 100%;
 }

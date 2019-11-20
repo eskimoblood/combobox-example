@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Combobox renders input with label  1`] = `
+<div>
+  <div
+    aria-controls="listbox"
+    aria-expanded="false"
+    class="widget-0-2-1"
+    role="combobox"
+    tabindex="0"
+  >
+    <label
+      class="label-0-2-2"
+      for="search"
+    >
+      search
+    </label>
+    <input
+      autocomplete="false"
+      class="input-0-2-3"
+      id="search"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`Combobox renders the suggestion when start typing 1`] = `
+<ul
+  class="comboBox-0-2-4"
+  id="listbox"
+  role="listbox"
+>
+  <li
+    class="option-0-2-5 selected"
+    title="Apple"
+  >
+    <mark>
+      Ap
+    </mark>
+    ple
+  </li>
+  <li
+    class="option-0-2-5 "
+    title="Apricot"
+  >
+    <mark>
+      Ap
+    </mark>
+    ricot
+  </li>
+</ul>
+`;
